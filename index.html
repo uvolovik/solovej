@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SolovejMe</title>
+  <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="/styles.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header__row">
+        <button id="open" class="menu-btn" onclick="openMenu()"><img class="" src="/images/burger.svg" alt="Open menu">
+        </button>
+        <div class="logo">Solovej<span>Me</span></div>
+          <nav class="nav">
+            <ul class="nav__list" role="list">
+              <li class="nav__list-item"><a class="nav-link" href="#main">Home</a></li>
+              <li class="nav__list-item"><a class="nav-link" href="#about">About Me</a></li>
+              <li class="nav__list-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav__list-item"><a class="nav-link" href="#education">Education</a></li>
+              <li class="nav__list-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li class="nav__list-item"><a class="btn btn--primary" href="https://www.linkedin.com/in/nastyasolovieva/">Hire Me</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section main" id="main">
+      <div class="container">
+        <div class="row main__row">
+          <div class="main__content">
+              <h1 class="main__title">
+                <span>Hi, I am</span>
+                Nastassia Solovieva
+                <span>Web & UI/UX Designer</span>
+              </h1>
+             <img class="content-image" src="images/main-image.svg" alt="">
+              <p class="main__description">This page has everything you need to know about me as a designer: education, work experience, portfolio, contact information. So, let's get acquainted!</p>
+
+              <ul class="main__list">
+                <li class="main__list-item"><span>4+ years</span>of experience</li>
+                <li class="main__list-item"><span>10+ tools</span>confident user</li>
+                <li class="main__list-item"><span>Endless</span>desire to grow</li>
+              </ul>
+
+              <div class="main__btn-group">
+                <div><a class="btn btn--primary" href="https://www.linkedin.com/in/nastyasolovieva/">Go to LinkedIn</a></div>
+                <div><a class="btn btn--secondary" href="mailto:solovej.work@gmail.com">E-Mail Me</a></div>
+              </div>
+          </div>
+          <div class="main__image">
+            <img src="images/main-image.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="row">
+            <div class="about__image">
+              <img src="/images/about.svg" alt="">
+            </div>
+            <div class="about__content">
+                <span class="section__span">About Me</span>
+                <h2 class="section__title">A book lover with a passion for Design</h2>
+                <img  class="content-image" src="/images/about.svg" alt="">
+                <p class="section__text">A few interesting facts about me: I love books in which events take place in psychiatric hospitals, adore alpacas and llamas, and dreaming of visiting all countries of the world. Oh, and also I don't eat most of vegetables, with a few exceptions. Tomatoes are my main enemy!</p>
+                <p id="about_list_title" class="about__list-title">Some of my Hobbies</p>
+                <ul aria-labelledby="about_list_title" role="list" class="hobby-list">
+                  <li class="hobby-list__item">
+                    <img src="/images/yoga.svg" alt="" class="hobby__icon">
+                    <p class="hobby__text">Yoga</p>
+                  </li>
+                  <li class="hobby-list__item">
+                    <img src="/images/book.svg" alt="" class="hobby__icon">
+                    <p class="hobby__text">Books</p>
+                  </li>
+                  <li class="hobby-list__item">
+                    <img src="/images/games.svg" alt="" class="hobby__icon">
+                    <p class="hobby__text">Board Games</p>
+                  </li>
+                  <li class="hobby-list__item">
+                    <img src="/images/travel.svg" alt="" class="hobby__icon">
+                    <p class="hobby__text">Travel</p>
+                  </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="skills">
+      <div class="container">
+        <span class="section__span">Skills</span>
+        <h2 class="section__title">What about my Skills?</h2>
+        <p class="section__text">Being a designer is cool at least because there are a huge number of tools that can help you realize your idea at the highest level. And at the same time, it’s very pleasant to add to the piggy bank of your tools that you own. Here's what I have accumulated</p>
+        <ul class="skills__list">
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Figma</p>
+              <span>Very Good</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:85%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Miro</p>
+              <span>Good</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:80%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Adobe Photoshop</p>
+              <span>Excellent</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:95%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Wireframing</p>
+              <span>Good</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:85%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Adobe Illustrator</p>
+              <span>Good</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:80%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Prototyping</p>
+              <span>Good</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:80%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Digital Illustration</p>
+              <span>Good</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:80%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>Photo Retouching</p>
+              <span>Very Good</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:85%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>User Interface Design</p>
+              <span>Excellent</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:95%"></span>
+            </div> 
+          </li>
+          <li class="skill">
+            <div class="skill__text-block">
+              <p>User Experience</p>
+              <span>Actively studying</span>
+            </div> 
+            <div class="skill__progress-bar">
+              <span style="width:70%"></span>
+            </div> 
+          </li>
+        </ul>
+        <div class="languages">
+          <p class="languages__title">Languages</p>
+          <ul class="languages__list">
+            <li class="languages__list-item">English(Upper-Intermediate)</li>
+            <li class="languages__list-item">Deutsch (Elementary)</li>
+            <li class="languages__list-item">Belarusian (Native)</li>
+            <li class="languages__list-item">Russian (Native)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section quality" id="education">
+      <div class="container">
+        <span class="section__span">Qualification</span>
+        <h2 class="section__title">Every day is a lesson</h2>
+        <p class="section__text">I truly believe that every day we learn something new: it can be some knowledge from our work area, or life lessons. Both options are important and valuable, so I always try to absorb as much knowledge as possible :)</p>
+        <div class="quality__lists">
+          <ul class="quality__list">
+            <li class="quality__list-item quality__list-item--bold">
+              Education
+            </li>
+            <li class="quality__list-item quality__list-item--red">
+              <p class="quality__title">Belarusian State University of Informatics and Radioelectronics </p>
+              <p class="quality__text">Digital Marketing</p>
+              <p class="quality__text">2015 - 2019</p>
+            </li>
+            <li class="quality__list-item quality__list-item--primary">
+              <p class="quality__title">Design School Hands</p>
+              <p class="quality__text">Brand Identity</p>
+              <p class="quality__text">2019</p>
+            </li>
+            <li class="quality__list-item quality__list-item--red">
+              <p class="quality__title">Gorbunov Bureau</p>
+              <p class="quality__text">User Interface</p>
+              <p class="quality__text">2020</p>
+            </li>
+            <li class="quality__list-item quality__list-item--primary">
+              <p class="quality__title">UX Mind School</p>
+              <p class="quality__text">UI/UX Mobile Design</p>
+              <p class="quality__text">2020</p>
+            </li>
+            <li class="quality__list-item quality__list-item--red">
+              <p class="quality__title">Tilda Education</p>
+              <p class="quality__text">Design in a digital environment</p>
+              <p class="quality__text">2020</p>
+            </li>
+          </ul>
+          <ul class="quality__list">
+            <li class="quality__list-item quality__list-item--bold">
+              Experience
+            </li>
+            <li class="quality__list-item quality__list-item--primary">
+              <p class="quality__title">Self-Employed</p>
+              <p class="quality__text">Graphic Designer</p>
+              <p class="quality__text">2016 - 2017</p>
+            </li>
+            <li class="quality__list-item quality__list-item--red">
+              <p class="quality__title">Social Weekend</p>
+              <p class="quality__text">Graphic Designer</p>
+              <p class="quality__text">2017 - 2018</p>
+            </li>
+            <li class="quality__list-item quality__list-item--primary">
+              <p class="quality__title">Studio Limb</p>
+              <p class="quality__text">Designer & Illustrator</p>
+              <p class="quality__text">2018 - 2019</p>
+            </li>
+            <li class="quality__list-item quality__list-item--red">
+              <p class="quality__title">Arteza</p>
+              <p class="quality__text">Designer</p>
+              <p class="quality__text">2019 - Now</p>
+            </li>
+            <li class="quality__list-item quality__list-item--primary">
+              <p class="quality__title">Self-Employed</p>
+              <p class="quality__text">User Interface & Mobile Designer</p>
+              <p class="quality__text">2020</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <span class="section__span">Portfolio</span>
+        <h2 class="section__title">There should be a Creative Title</h2>
+        <p class="section__text">But no. Here are my favorite works from portfolio, which I’m proud to show to everyone. More of my work you can find on Dribbble or Behance. I hope you like it, enjoy your viewing!</p>
+       <ul class="portfolio__list">
+         <li class="porfolio__list-item">
+           <a href="https://dribbble.com/shots/14393043-Mobile-banking-Daily-UI-2"><img class="porfolio__img" src="/images/Banking.jpg" alt=""></a>
+         </li>
+         <li class="porfolio__list-item">
+          <a href="https://dribbble.com/shots/14408853-Landing-page-Daily-UI-3"><img class="porfolio__img" src="/images/TravelGuide.jpg" alt=""></a>
+        </li>
+        <li class="porfolio__list-item">
+          <a href="https://dribbble.com/shots/11112081-Audiobook-player-Mobile-App"><img class="porfolio__img" src="/images/reader.jpg" alt=""></a>
+        </li>
+        <li class="porfolio__list-item">
+          <a href="https://dribbble.com/shots/14214966-Yoga-studio-Sign-Up-Daily-UI-1"><img class="porfolio__img" src="/images/form.jpg" alt=""></a>
+        </li>
+        <li class="porfolio__list-item">
+          <a href="https://dribbble.com/shots/14470909-Settings-Daily-UI-7"><img class="porfolio__img" src="/images/Belpost.jpg" alt=""></a>
+        </li>
+        <li class="porfolio__list-item">
+          <a class="btn btn--primary" href="https://dribbble.com/rastonweasley">More on Dribbble</a>
+          <a class="btn btn--secondary" href="https://www.behance.net/nastyasolovieva">Visit Behance</a>
+        </li>
+       </ul>
+      </div>
+    </section>
+    <section class="section contacts" id="contacts">
+      <div class="container">
+        <div class="row ">
+            <div class="contacts__content">
+              <span class="section__span">Contacts</span>
+              <h2 class="section__title">Let’s Stay in Touch</h2>
+              <img class="content-image" src="/images/contacts-image.svg" alt="">
+              <p class="section__text">I am always happy to make new acquaintances and establish contacts, so even if right now I can't help you with my professional activities, we can still stay in touch!</p>
+
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <a href="mailto:solovej.work@gmail.com">
+                    <img src="/images/gmail.svg" alt="">
+                    solovej.work@gmail.com
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a href="tel:+375292706270">
+                    <img src="/images/phone-icon.svg" alt="">
+                    +375 (29) 270-62-70
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="social-networks__list">
+                <li class="social-network">
+                  <a href="https://www.linkedin.com/in/nastyasolovieva/">
+                    <img src="/images/linkedin-icon.svg" alt="">
+                  </a>
+                </li>
+                <li class="social-network">
+                  <a href="https://dribbble.com/rastonweasley">
+                    <img src="/images/dribbble.svg" alt="">
+                  </a>
+                </li>
+                <li class="social-network">
+                  <a href="https://www.behance.net/nastyasolovieva">
+                    <img src="/images/behance.svg" alt="">
+                  </a>
+                </li>
+                <li class="social-network">
+                  <a href="http://instagram.com/rastonweasley">
+                    <img src="/images/instagram.svg" alt="">
+                  </a>
+                </li>
+                <li class="social-network">
+                  <a href="https://t.me/rastonweasley">
+                    <img src="/images/telegram.svg" alt="">
+                  </a>
+                </li>
+              </ul>
+              <a class="contacts__btn btn btn--primary" href="https://www.linkedin.com/in/nastyasolovieva/">Hire Me</a>
+            </div>
+            <div class="contacts__img">
+              <img src="/images/contacts-image.svg" alt="">
+            </div>
+        </div>
+      </div>
+  </main>
+  <footer class="footer">
+    <p>SolovejMe | © 2020 SolovejMe All Rights Reserved</p>
+  </footer>
+  <div class="mobile-menu hide" id="mobile-menu">
+    <button id="close" onclick="hideMenu()" class="menu-btn mobile-menu__close"><img src="/images/close.svg" alt="Close menu"></button>
+    <nav class="nav mobile-menu__nav">
+      <ul class="nav__list" role="list">
+        <li class="nav__list-item"><a class="nav-link" href="#main">Home</a></li>
+        <li class="nav__list-item"><a class="nav-link" href="#about">About Me</a></li>
+        <li class="nav__list-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav__list-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav__list-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu__socials">
+      <a href="https://dribbble.com/rastonweasley"><img class="mobile-nav__dr" src="/images/dribbble-white.svg" alt=""></a>
+      <a href="https://www.behance.net/nastyasolovieva"><img class="mobile-nav__bh" src="/images/behance-white.svg" alt=""></a>
+      <a href="https://www.linkedin.com/in/nastyasolovieva"><img class="mobile-nav__linkedin" src="/images/linkedin-white.svg" alt=""></a>
+      <a href="https://t.me/rastonweasley"><img class="mobile-nav__tg" src="images/telegram-white.svg" alt=""></a>
+      <a href="http://instagram.com/rastonweasley"><img class="mobile-nav__inst" src="/images/instagram-white.svg" alt=""></a>
+    </div>
+  </div>
+
+  <script>
+    function openMenu(){
+      var mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.remove("hide");
+      document.body.classList.add("overflow-h");
+    }
+
+    function hideMenu() {
+      var mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.add("hide");
+      document.body.classList.remove("overflow-h");
+    }
+
+    var links = document.querySelectorAll('.mobile-menu__nav .nav-link');
+
+    links.forEach(el => el.addEventListener('click', event => {
+      hideMenu();
+    }));
+
+  </script>
+</body>
+</html>
